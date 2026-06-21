@@ -12,7 +12,7 @@ export function NavigationControls({ onPrevious, onNext, canPrevious, isLast }: 
         <span aria-hidden="true">←</span>
       </button>
       <span className="story-nav__hint">tap · swipe · arrow keys</span>
-      <button className="story-nav__button story-nav__button--next" onClick={onNext} aria-label={isLast ? "Open the memory constellation" : "Next card"}>
+      <button className="story-nav__button story-nav__button--next" onClick={onNext} aria-label={isLast ? "Open 8 things I learned" : "Next card"}>
         <span>{isLast ? "TO THE STARS" : "NEXT"}</span><span aria-hidden="true">→</span>
       </button>
     </nav>

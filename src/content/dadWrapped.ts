@@ -20,7 +20,7 @@ export const dadWrapped: DadWrappedContent = {
       eyebrow: "The family's most valuable person",
       title: "ONE DAD. COUNTLESS SAVES.",
       caption: "Always on call. Rarely impressed. Somehow prepared for everything.",
-      images: ["/img/montage-1.jpg", "/img/montage-2.jpg", "/img/montage-3.jpg"],
+      images: ["/img/montage-1.png", "/img/montage-2.png", "/img/montage-3.png"],
       theme: "blue",
     },
     {
@@ -30,7 +30,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "INCLUDING SEVERAL NOBODY ASKED HIM TO SOLVE",
       value: 12847,
       caption: "Personal best. Again.",
-      image: "/img/habit.jpg",
+      image: "/img/habit.png",
       theme: "lime",
     },
     {
@@ -41,7 +41,7 @@ export const dadWrapped: DadWrappedContent = {
       value: 24306,
       suffix: " KM",
       caption: "Pickups, drop-offs, errands, and one suspiciously efficient shortcut.",
-      image: "/img/driving.jpg",
+      image: "/img/driving.png",
       theme: "yellow",
     },
     {
@@ -51,7 +51,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "EXPERT QUALITY CONTROL",
       value: 8942,
       caption: "Not too sweet. Not too cold. Exactly right.",
-      image: "/img/habit.jpg",
+      image: "/img/quality.png",
       theme: "navy",
     },
     {
@@ -61,7 +61,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "FREE. UNLIMITED. SURPRISINGLY ACCURATE.",
       value: 3651,
       caption: "Acceptance rate: eventually 100%.",
-      image: "/img/quote.jpg",
+      image: "/img/quote.png",
       theme: "orange",
     },
     {
@@ -81,7 +81,7 @@ export const dadWrapped: DadWrappedContent = {
       value: 147,
       suffix: "%",
       caption: "For showing up before anyone even had to ask.",
-      image: "/img/family.jpg",
+      image: "/img/family.png",
       theme: "lime",
     },
     {
@@ -90,7 +90,7 @@ export const dadWrapped: DadWrappedContent = {
       eyebrow: "Your number one role",
       title: "DAD",
       caption: "No contest. No close second.",
-      image: "/img/family.jpg",
+      image: "/img/dad.png",
       theme: "yellow",
     },
     {
@@ -103,14 +103,14 @@ export const dadWrapped: DadWrappedContent = {
     },
   ],
   memories: [
-    { id: "memory-1", position: { x: 16, y: 30 }, title: "The first adventure", memory: "Replace this with a short memory about a journey, a first, or a day you still talk about.", image: "/img/memory-1.jpg", alt: "A family memory with Dad" },
-    { id: "memory-2", position: { x: 31, y: 18 }, title: "The lesson that stayed", memory: "Write about something he taught you without realizing how much it would matter later.", image: "/img/memory-2.jpg", alt: "Dad sharing a meaningful moment" },
-    { id: "memory-3", position: { x: 44, y: 39 }, title: "A very Dad solution", memory: "Remember a moment when his unusual solution worked better than anyone expected.", image: "/img/memory-3.jpg", alt: "Dad solving a family problem" },
-    { id: "memory-4", position: { x: 61, y: 25 }, title: "The laugh we remember", memory: "Add the story behind an inside joke or a moment when nobody could stop laughing.", image: "/img/memory-4.jpg", alt: "Dad laughing with family" },
-    { id: "memory-5", position: { x: 79, y: 34 }, title: "Always there", memory: "Describe one of the quiet ways he has consistently shown up for the family.", image: "/img/memory-5.jpg", alt: "A quiet family moment with Dad" },
-    { id: "memory-6", position: { x: 70, y: 58 }, title: "Our favorite ordinary day", memory: "Not every treasured memory is a milestone. Add one ordinary day that felt like home.", image: "/img/memory-6.jpg", alt: "An ordinary day spent with Dad" },
-    { id: "memory-7", position: { x: 49, y: 68 }, title: "The family tradition", memory: "Write about a ritual, meal, holiday, or habit that would not feel the same without him.", image: "/img/memory-7.jpg", alt: "A family tradition with Dad" },
-    { id: "memory-8", position: { x: 27, y: 60 }, title: "Still ahead of us", memory: "End with something you are looking forward to sharing with him in the years ahead.", image: "/img/memory-8.jpg", alt: "A hopeful memory with Dad" },
+    { id: "memory-1", position: { x: 16, y: 30 }, title: "Show up when it matters", memory: "You taught me that love is not always a grand gesture. More often, it is simply being there—reliably, quietly, and especially when it is inconvenient.", image: "/img/memory-1.png", alt: "Dad showing up for the family" },
+    { id: "memory-2", position: { x: 35, y: 26 }, title: "Keep your word", memory: "You taught me that a promise should mean something. Trust is built by doing what you said you would do, even when nobody is checking.", image: "/img/memory-2.png", alt: "Dad teaching the value of keeping your word" },
+    { id: "memory-3", position: { x: 44, y: 39 }, title: "Work hard, stay humble", memory: "You showed me that good work does not need constant applause. Do it properly, let the result speak, and never believe that any honest task is beneath you.", image: "/img/memory-3.png", alt: "Dad demonstrating hard work and humility" },
+    { id: "memory-4", position: { x: 61, y: 25 }, title: "Family comes first", memory: "From you I learned that success means very little if there is nobody beside you to share it with. Make time, stay connected, and take care of your people.", image: "/img/memory-4.png", alt: "Dad putting family first" },
+    { id: "memory-5", position: { x: 79, y: 34 }, title: "Stay calm and find a way", memory: "When things go wrong, panic rarely improves them. You taught me to pause, understand the problem, and work steadily toward the next useful step.", image: "/img/memory-5.png", alt: "Dad calmly finding a solution" },
+    { id: "memory-6", position: { x: 70, y: 58 }, title: "Be kind without keeping score", memory: "You showed me that the best kind of help is given without expecting recognition or repayment. Quiet generosity leaves the deepest mark.", image: "/img/memory-6.png", alt: "Dad showing quiet kindness" },
+    { id: "memory-7", position: { x: 49, y: 68 }, title: "Never stop learning", memory: "You taught me to remain curious, ask better questions, and admit when I do not know something. Growing older should never mean becoming closed to learning.", image: "/img/memory-7.png", alt: "Dad encouraging curiosity and learning" },
+    { id: "memory-8", position: { x: 27, y: 60 }, title: "Always make room for joy", memory: "Responsibility matters, but so do laughter, small celebrations, and ordinary moments together. You taught me that a good life must make room for both.", image: "/img/memory-8.png", alt: "Dad sharing a joyful family moment" },
   ],
-  closingMessage: "Every memory with you becomes part of who we are.",
+  closingMessage: "Everything you taught me has become part of who I am.",
 };

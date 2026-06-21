@@ -25,5 +25,10 @@ export function AnimatedNumber({ value, suffix = "" }: AnimatedNumberProps) {
     return () => cancelAnimationFrame(frame);
   }, [reduced, value]);
 
-  return <>{current.toLocaleString("en-IN")}{suffix}</>;
+  return (
+    <>
+      <span className="animated-number__value">{current.toLocaleString("en-IN")}</span>
+      {suffix && <span className="animated-number__suffix">{suffix.trim()}</span>}
+    </>
+  );
 }

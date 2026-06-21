@@ -103,6 +103,18 @@
   text-shadow: .04em .04em 0 var(--accent);
 }
 
+.animated-number__suffix { margin-left: .06em; }
+
+.wrapped-card[data-card-id="kilometres"] .animated-number__suffix {
+  display: inline-block;
+  margin-left: .16em;
+  font-size: .44em;
+  line-height: 1;
+  letter-spacing: -.025em;
+  vertical-align: .2em;
+  text-shadow: .07em .07em 0 var(--accent);
+}
+
 .mega-quote {
   max-width: 13ch;
   margin: 1rem 0 1.3rem;

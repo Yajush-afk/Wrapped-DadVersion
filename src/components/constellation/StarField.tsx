@@ -32,7 +32,7 @@ export function StarField({ memories, viewed, onSelect }: StarFieldProps) {
           className={`memory-star ${viewed.has(memory.id) ? "is-viewed" : ""}`}
           style={{ left: `${memory.position.x}%`, top: `${memory.position.y}%` }}
           onClick={() => onSelect(index)}
-          aria-label={`Open memory ${index + 1}: ${memory.title}${viewed.has(memory.id) ? ", viewed" : ""}`}
+          aria-label={`Open lesson ${index + 1}: ${memory.title}${viewed.has(memory.id) ? ", viewed" : ""}`}
         >
           <span className="memory-star__core" aria-hidden="true" />
           <span className="memory-star__number">{index + 1}</span>

@@ -27,14 +27,14 @@ export function ConstellationExperience({ memories, viewed, setViewed, onFinale,
   return (
     <main className="constellation-experience">
       <header className="constellation-header">
-        <p>A constellation of memories</p>
-        <h1>Some things stay<br />with us <em>forever.</em></h1>
-        <span>{viewed.size} of {memories.length} memories found</span>
+        <p>A constellation of lessons</p>
+        <h1>Somethings stay with us<br /><em>Forever.</em></h1>
+        <span>{viewed.size} of {memories.length} lessons opened</span>
       </header>
       <StarField memories={memories} viewed={viewed} onSelect={selectMemory} />
       <footer className="constellation-footer">
         <button className="button-quiet" onClick={onReplay}>↺ Replay Wrapped</button>
-        <p>Choose a star</p>
+        <p>Choose a lesson</p>
         <button className={allViewed ? "is-ready" : ""} onClick={onFinale}>Final message →</button>
       </footer>
       <AnimatePresence>

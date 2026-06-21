@@ -21,7 +21,7 @@ export function WrappedCard({ card, index }: { card: WrappedCardType; index: num
   const media = renderMedia();
 
   return (
-    <article className={`wrapped-card wrapped-card--${card.type} theme-${card.theme}`}>
+    <article className={`wrapped-card wrapped-card--${card.type} theme-${card.theme}`} data-card-id={card.id}>
       <DecorativeShapes variant={index} />
       <div className="wrapped-card__inner">
         <div className="wrapped-card__copy">
