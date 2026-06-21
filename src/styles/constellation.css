@@ -204,6 +204,7 @@
     border-radius: 18px 18px 0 0;
   }
   .memory-dialog__photo { min-height: 0; }
+  .memory-dialog[data-lesson-id="memory-8"] .memory-dialog__photo .safe-image { object-position: center top; }
   .memory-dialog__copy { padding: 1.5rem 1.4rem max(1.5rem, env(safe-area-inset-bottom)); }
   .memory-dialog h2 { font-size: clamp(2rem, 10vw, 3rem); }
   .memory-dialog__copy > p:not(.memory-dialog__count) { margin-bottom: .5rem; line-height: 1.45; }

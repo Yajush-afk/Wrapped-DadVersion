@@ -43,7 +43,7 @@ export function MemoryDialog({ memory, position, total, onClose, onPrevious, onN
 
   return (
     <div className="memory-overlay" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
-      <div className="memory-dialog" role="dialog" aria-modal="true" aria-labelledby="memory-title" ref={panelRef}>
+      <div className="memory-dialog" data-lesson-id={memory.id} role="dialog" aria-modal="true" aria-labelledby="memory-title" ref={panelRef}>
         <button className="memory-dialog__close" onClick={onClose} aria-label="Close lesson">×</button>
         <div className="memory-dialog__photo">
           <SafeImage src={memory.image} alt={memory.alt} label={`LESSON ${position}`} />
