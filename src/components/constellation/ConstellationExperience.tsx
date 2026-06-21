@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { MemoryStar } from "../../types";
 import { MemoryDialog } from "./MemoryDialog";
 import { StarField } from "./StarField";
@@ -14,6 +14,13 @@ type ConstellationProps = {
 
 export function ConstellationExperience({ memories, viewed, setViewed, onFinale, onReplay }: ConstellationProps) {
   const [selected, setSelected] = useState<number | null>(null);
+
+  useEffect(() => {
+    memories.forEach((memory) => {
+      const image = new Image();
+      image.src = memory.image;
+    });
+  }, [memories]);
 
   const selectMemory = useCallback((index: number) => {
     setSelected(index);

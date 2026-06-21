@@ -11,7 +11,7 @@ export const dadWrapped: DadWrappedContent = {
       eyebrow: "Your year in review",
       title: "DAD WRAPPED",
       caption: "The numbers are unofficial. The legend is not.",
-      image: "/img/cover.jpg",
+      image: "/img/cover.webp",
       theme: "orange",
     },
     {
@@ -20,7 +20,7 @@ export const dadWrapped: DadWrappedContent = {
       eyebrow: "The family's most valuable person",
       title: "ONE DAD. COUNTLESS SAVES.",
       caption: "Always on call. Rarely impressed. Somehow prepared for everything.",
-      images: ["/img/montage-1.png", "/img/montage-2.png", "/img/montage-3.png"],
+      images: ["/img/montage-1.webp", "/img/montage-2.webp", "/img/montage-3.webp"],
       theme: "blue",
     },
     {
@@ -30,7 +30,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "INCLUDING SEVERAL NOBODY ASKED HIM TO SOLVE",
       value: 12847,
       caption: "Personal best. Again.",
-      image: "/img/habit.png",
+      image: "/img/habit.webp",
       theme: "lime",
     },
     {
@@ -41,7 +41,7 @@ export const dadWrapped: DadWrappedContent = {
       value: 24306,
       suffix: " KM",
       caption: "Pickups, drop-offs, errands, and one suspiciously efficient shortcut.",
-      image: "/img/driving.png",
+      image: "/img/driving.webp",
       theme: "yellow",
     },
     {
@@ -51,7 +51,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "EXPERT QUALITY CONTROL",
       value: 8942,
       caption: "Not too sweet. Not too cold. Exactly right.",
-      image: "/img/quality.png",
+      image: "/img/quality.webp",
       theme: "navy",
     },
     {
@@ -61,7 +61,7 @@ export const dadWrapped: DadWrappedContent = {
       title: "FREE. UNLIMITED. SURPRISINGLY ACCURATE.",
       value: 3651,
       caption: "Acceptance rate: eventually 100%.",
-      image: "/img/quote.png",
+      image: "/img/quote.webp",
       theme: "orange",
     },
     {
@@ -81,7 +81,7 @@ export const dadWrapped: DadWrappedContent = {
       value: 147,
       suffix: "%",
       caption: "For showing up before anyone even had to ask.",
-      image: "/img/family.png",
+      image: "/img/family.webp",
       theme: "lime",
     },
     {
@@ -90,7 +90,7 @@ export const dadWrapped: DadWrappedContent = {
       eyebrow: "Your number one role",
       title: "DAD",
       caption: "No contest. No close second.",
-      image: "/img/dad.png",
+      image: "/img/dad.webp",
       theme: "yellow",
     },
     {
@@ -103,14 +103,14 @@ export const dadWrapped: DadWrappedContent = {
     },
   ],
   memories: [
-    { id: "memory-1", position: { x: 16, y: 30 }, title: "Show up when it matters", memory: "You taught me that love is not always a grand gesture. More often, it is simply being there—reliably, quietly, and especially when it is inconvenient.", image: "/img/memory-1.png", alt: "Dad showing up for the family" },
-    { id: "memory-2", position: { x: 35, y: 26 }, title: "Keep your word", memory: "You taught me that a promise should mean something. Trust is built by doing what you said you would do, even when nobody is checking.", image: "/img/memory-2.png", alt: "Dad teaching the value of keeping your word" },
-    { id: "memory-3", position: { x: 44, y: 39 }, title: "Work hard, stay humble", memory: "You showed me that good work does not need constant applause. Do it properly, let the result speak, and never believe that any honest task is beneath you.", image: "/img/memory-3.png", alt: "Dad demonstrating hard work and humility" },
-    { id: "memory-4", position: { x: 61, y: 25 }, title: "Family comes first", memory: "From you I learned that success means very little if there is nobody beside you to share it with. Make time, stay connected, and take care of your people.", image: "/img/memory-4.png", alt: "Dad putting family first" },
-    { id: "memory-5", position: { x: 79, y: 34 }, title: "Stay calm and find a way", memory: "When things go wrong, panic rarely improves them. You taught me to pause, understand the problem, and work steadily toward the next useful step.", image: "/img/memory-5.png", alt: "Dad calmly finding a solution" },
-    { id: "memory-6", position: { x: 70, y: 58 }, title: "Be kind without keeping score", memory: "You showed me that the best kind of help is given without expecting recognition or repayment. Quiet generosity leaves the deepest mark.", image: "/img/memory-6.png", alt: "Dad showing quiet kindness" },
-    { id: "memory-7", position: { x: 49, y: 68 }, title: "Never stop learning", memory: "You taught me to remain curious, ask better questions, and admit when I do not know something. Growing older should never mean becoming closed to learning.", image: "/img/memory-7.png", alt: "Dad encouraging curiosity and learning" },
-    { id: "memory-8", position: { x: 27, y: 60 }, title: "Always make room for joy", memory: "Responsibility matters, but so do laughter, small celebrations, and ordinary moments together. You taught me that a good life must make room for both.", image: "/img/memory-8.png", alt: "Dad sharing a joyful family moment" },
+    { id: "memory-1", position: { x: 16, y: 30 }, title: "Show up when it matters", memory: "You taught me that love is not always a grand gesture. More often, it is simply being there—reliably, quietly, and especially when it is inconvenient.", image: "/img/memory-1.webp", alt: "Dad showing up for the family" },
+    { id: "memory-2", position: { x: 35, y: 26 }, title: "Keep your word", memory: "You taught me that a promise should mean something. Trust is built by doing what you said you would do, even when nobody is checking.", image: "/img/memory-2.webp", alt: "Dad teaching the value of keeping your word" },
+    { id: "memory-3", position: { x: 44, y: 39 }, title: "Work hard, stay humble", memory: "You showed me that good work does not need constant applause. Do it properly, let the result speak, and never believe that any honest task is beneath you.", image: "/img/memory-3.webp", alt: "Dad demonstrating hard work and humility" },
+    { id: "memory-4", position: { x: 61, y: 25 }, title: "Family comes first", memory: "From you I learned that success means very little if there is nobody beside you to share it with. Make time, stay connected, and take care of your people.", image: "/img/memory-4.webp", alt: "Dad putting family first" },
+    { id: "memory-5", position: { x: 79, y: 34 }, title: "Stay calm and find a way", memory: "When things go wrong, panic rarely improves them. You taught me to pause, understand the problem, and work steadily toward the next useful step.", image: "/img/memory-5.webp", alt: "Dad calmly finding a solution" },
+    { id: "memory-6", position: { x: 70, y: 58 }, title: "Be kind without keeping score", memory: "You showed me that the best kind of help is given without expecting recognition or repayment. Quiet generosity leaves the deepest mark.", image: "/img/memory-6.webp", alt: "Dad showing quiet kindness" },
+    { id: "memory-7", position: { x: 49, y: 68 }, title: "Never stop learning", memory: "You taught me to remain curious, ask better questions, and admit when I do not know something. Growing older should never mean becoming closed to learning.", image: "/img/memory-7.webp", alt: "Dad encouraging curiosity and learning" },
+    { id: "memory-8", position: { x: 27, y: 60 }, title: "Always make room for joy", memory: "Responsibility matters, but so do laughter, small celebrations, and ordinary moments together. You taught me that a good life must make room for both.", image: "/img/memory-8.webp", alt: "Dad sharing a joyful family moment" },
   ],
   closingMessage: "Everything you taught me has become part of who I am.",
 };

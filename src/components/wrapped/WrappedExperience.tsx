@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, type PanInfo } from "motion/react";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { WrappedCard as WrappedCardType } from "../../types";
 import { useKeyboardNavigation } from "../../hooks/useKeyboardNavigation";
 import { NavigationControls } from "./NavigationControls";
@@ -15,6 +15,17 @@ type WrappedExperienceProps = {
 
 export function WrappedExperience({ cards, activeIndex, setActiveIndex, onComplete }: WrappedExperienceProps) {
   const [direction, setDirection] = useState(1);
+
+  useEffect(() => {
+    const nextCard = cards[activeIndex + 1];
+    if (!nextCard) return;
+
+    const sources = nextCard.images ?? (nextCard.image ? [nextCard.image] : []);
+    sources.forEach((source) => {
+      const image = new Image();
+      image.src = source;
+    });
+  }, [activeIndex, cards]);
 
   const previous = useCallback(() => {
     if (activeIndex === 0) return;

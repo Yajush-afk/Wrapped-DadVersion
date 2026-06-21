@@ -10,7 +10,7 @@ test("moves through the Wrapped cards and opens the constellation", async ({ pag
 
   await expect(page.getByRole("heading", { name: "BUT THE BEST THINGS CAN'T BE COUNTED." })).toBeVisible();
   await page.getByRole("button", { name: "Open 8 things I learned" }).click();
-  await expect(page.getByRole("heading", { name: /8 things I learned/ })).toBeVisible({ timeout: 3000 });
+  await expect(page.getByRole("heading", { name: /Somethings stay with us/ })).toBeVisible({ timeout: 3000 });
   await page.getByRole("button", { name: /Open lesson 1/ }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
 });
@@ -21,7 +21,7 @@ test("final message can be reached without opening every lesson", async ({ page 
     await page.getByRole("button", { name: "Next card" }).click();
   }
   await page.getByRole("button", { name: "Open 8 things I learned" }).click();
-  await expect(page.getByRole("heading", { name: /8 things I learned/ })).toBeVisible({ timeout: 3000 });
+  await expect(page.getByRole("heading", { name: /Somethings stay with us/ })).toBeVisible({ timeout: 3000 });
   await page.getByRole("button", { name: "Final message →" }).click();
   await expect(page.getByRole("heading", { name: /Happy Father’s Day/ })).toBeVisible();
 });
